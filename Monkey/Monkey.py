@@ -21,7 +21,7 @@ def morgat():
 	y = "   -----"
 	f = "_______"
 	g = "\\_____/"
-	for i in range(10): #пока правда:
+	for i in range(7): #пока правда:
 		print ( q,  q)
 		print (x, x)
 		print (z, z)
@@ -52,7 +52,7 @@ class Monkey:
 			self.sleep = 100
 	def Wake(self):
 		while True:
-			print("Накликайте 30 раз чтобы разбудить спящую обезбяну")
+			print("Накликайте 30 раз чтобы разбудить Тамогочи")
 			start = time.time()
 			kolvo = []
 			PERIOD_OF_TIME = 5
@@ -76,7 +76,7 @@ class Monkey:
 	def Sing(self):
 		pass
 
-e = Monkey("Ежан", 100, 100)
+e = Monkey("Тамогочи", 100, 100)
 stroka = "" # Создаём переменную
 while True:  # Начинаем цикл
 	if stroka == ("Спи, " + e.name) and not e.issleep:
